@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - Le CEFII Golf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page d'accueil du site CEFII Golf">
+    <meta name='' robots'' content='' index, follow''>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lustria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/30714e8ef9.js" crossorigin="anonymous"></script>
+    <link href="pages/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!--menu navigation-->
+        <nav>
+            <!--<div clas="menu_anime">
+                <img src="images/logos/logo.png" alt="logo" width="340" class="cefiiSans" />
+                <div class="animation">
+                    <img src="images/logos/fx-left.png" alt="fxLeft" class="fxLeft" />
+                    <img src="images/logos/balle.png" alt="balle" class="balle" />
+                    <img src="images/logos/fx-right.png" alt="fxRight" class="fxRight" />
+                </div>
+            </div>-->
+            <div class="logo">
+                <img src="images/logos/logo-golf.png" alt="logo du site CEFII GOLF" title="logo du site CEFII GOLF"
+                    class="logo" />
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </label>
+            <ul class="nav-links">
+                <li><a title="accueil du site" target="_self" id="active" href="index.html">ACCUEIL</a></li>
+                <li><a title="parcours de golf" target="_self" href="#">PARCOURS</a></li>
+                <li>
+                    <a title="domaine du golf" target="_self" href="#">LE DOMAINE <i
+                            class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="sousmenu">
+                        <li><a title="parc du golf" target="_self" href="#">LE PARC</a></li>
+                        <li><a title="l'hôtel du golf" target="_self" href="#">LE RESTAURANT</a></li>
+                        <li><a title="le restaurant du golf" target="_self" href="#">HÔTEL</a></li>
+                    </ul>
+                </li>
+                <li><a title="les tournois" target="_self" href="#">LES TOURNOIS</a></li>
+                <li><a title="tarifs et contact" target="_self" href="pages/html/tarifscontacts.html">TARIFS &
+                        CONTACTS</a></li>
+            </ul>
+        </nav>
+        <!--HEADER-->
+        <header class="flex">
+            <h1 class="text">Bienvenue <br />au Golf du CEFii !</h1>
+        </header>
+
+        <!--CALL TO ACTION-->
+        <div class="flex-container">
+            <div class="calltoaction">
+                <i class="fa-solid fa-calendar-days fa-2xl"></i>
+                <h3>Nos évènements</h3>
+                <p>Inscrivez-vous au prochain tournoi de golf</p>
+                <hr>
+            </div>
+
+            <div class="calltoaction">
+                <i class="fa-solid fa-golf-ball-tee fa-2xl"></i>
+                <h3>Nos services</h3>
+                <p>Découvrez tous nos services disponibles à l'année</p>
+                <hr>
+            </div>
+
+            <div class="calltoaction">
+                <i class="fa-solid fa-circle-info fa-2xl"></i>
+                <h3>Information</h3>
+                <p>Les parcours sont momentanément fermés</p>
+                <hr>
+            </div>
+        </div>
+        <!--CONTENU PRINCIPAL-->
+        <main>
+            <div class="gridcontainer">
+                <!--a-propos-->
+                <section>
+                    <div class="gridcontainer item1">
+                        <img src="images/a-propos.jpg" alt="joueur de golf" max-width="256px" />
+                        <div class="apropos">
+                            <h2>&Agrave; propos de nous</h2>
+
+                            <p>
+                                Codifié en Écosse en 1754 par le Royal & Ancient Golf Club de
+                                Saint Andrews, le golf est un sport de précision se jouant en
+                                plein air, qui consiste à envoyer une balle dans un trou à
+                                l'aide de clubs. Le but du jeu consiste à effectuer, sur un
+                                parcours défini, le moins de coups possible. Précision,
+                                endurance, technicité, concentration sont des qualités
+                                primordiales pour cette activité.
+                            </p>
+                        </div>
+                    </div>
+                    <!--en savoir +-->
+                    <div class="gridcontainer item2">
+                        <img src="images/en-savoir-plus.jpg" alt="enfant jouant au golf" max-width="256px" />
+                        <div class="savoirplus">
+                            <h2>En savoir plus</h2>
+                            <ul>
+                                <li><a href="#">Votre licence</a></li>
+                                <li><a href="#">Vos droits</a></li>
+                                <li><a href="#">Votre parcours</a></li>
+                                <li><a href="#">Vos soirées</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--a la une-->
+                <article class="gridcontainer right">
+                    <!--<div class="aLaUne">-->
+                    <div>
+                        <h2>&Agrave; la une</h2>
+                    </div>
+                    <div class="aLaUne"></div>
+                    <div>
+                        <figure>
+                            <img src="images/a-la-une.jpg" alt="balle à la main " max-width="300px" />
+                            <figcaption>04/08</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="article_une">
+                        <p>Comment augmenter la puissance de votre swing ?</p>
+                        <p>
+                            Pour gagner de la vitesse il faut disposer d'énergie et l'utiliser
+                            au mieux. À la montée nous accumulons de l'énergie potentielle de
+                            pesanteur. Pendant la descente nous transformons cette énergie en
+                            énergie cinétique avec un minimum de pertes pour accélérer
+                            jusqu'au finish.
+                            <a class="bouton" href="#">Lire la suite <i class="fa-solid fa-arrow-right"></i></a>
+                        </p>
+                    </div>
+                    <!--</div>-->
+                </article>
+            </div>
+
+            <!--video youtube-->
+            <section>
+                <div class="video_youtube">
+                    <h2>Découvrez notre dernière vidéo !</h2>
+                    <div class="videoWrapper">
+                        <iframe width="100%" height="566" src="https://www.youtube.com/embed/DbNQ52R0zNU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <!--newsletter-->
+            <aside class="newsletter">
+                <form action="" enctype="application/x-www-form-urlencoded">
+                    <label for="email">
+                        <i class="fa-regular fa-envelope fa-2xl"></i>Inscription à la newsletter</label>
+                    <input class="email" type="email" name="email" id="email" placeholder="Votre adresse email"
+                        required="Veuillez renseigner ce champ." />
+                    <input class="boutonValider" type="submit" value="Valider" />
+                </form>
+            </aside>
+        </main>
+        <!--footer-->
+        <footer>
+            <div class="footer-item">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#">Parcours</a></li>
+                    <li><a href="#">Le domaine</a></li>
+                    <li><a href="#">Les tournois</a></li>
+                    <li><a href="pages/html/tarifscontacts.html">Contact</a></li>
+                </ul>
+
+                <address class="footer-item colonne">
+                    <i class="fa-solid fa-location-dot"></i>
+                    18 rue du Green<br />
+                    49031 GOLF-LAND sur TEE
+                </address>
+
+                <div>
+                    <h3>Suivez-nous !</h3>
+                    <div class="footer-item reseaux">
+                        <p>
+                            <a href="https://www.instagram.com/cefiifr/" target="_blank" alt="logo instagram"
+                                title="Retrouvez-nous sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </p>
+                        <p>
+                            <a href="https://www.facebook.com/CEFiiWeb/?locale=fr_FR" target="_blank"
+                                alt="logo facebook" title="Retrouvez-nous sur Facebook"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                &copy; Copyright | Production interne | &reg; Tous droits réservés - CEFII - Michel Grillon - Olivier
+                PESCE | 2023
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
