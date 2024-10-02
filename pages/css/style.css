@@ -150,7 +150,6 @@ nav a:hover {
 .burger div {
     width: 2em;
     height: 0.35em;
-    /*background-color: black;*/
     background-color: #BF9A3C;
     margin: 0.313em;
     border-radius: 0.15em;
@@ -1058,9 +1057,6 @@ footer i {
         font-family: 'Lustria', serif;
         text-align: center;
         transform: translate(25%, 17%);
-        /*padding-top: 8.5em;*/
-        /*padding-left: 1.8em;*/
-        /*margin: 11.5em 0em 8em 0em;*/
         display: flex;
         align-items: center;
     }
@@ -1801,7 +1797,6 @@ footer i {
         justify-content: flex-start;
         width: 23em;
         height: 4.671em;
-        /*max-width: 13.065em;*/
         margin: 0.1em 0em 0.1em 0.5em;
         padding: 0;
 
@@ -1819,7 +1814,6 @@ footer i {
     .burger div {
         width: 3em;
         height: 0.45em;
-        /*background-color: black;*/
         background-color: #BF9A3C;
         margin: 0.5em;
         border-radius: 0.15em;
@@ -1956,17 +1950,6 @@ footer i {
     .calltoaction {
         position: relative;
     }
-
-    /*.calltoaction::after {
-        content: "";
-        position: absolute;
-        margin-top: 11.25em;
-        margin-left: 6.3em;
-        margin-right: 3.75em;
-        width: 20%;
-        height: 0.125em;
-        background: #BF9A3C;
-    }*/
 
     .flex-container i {
         font-size: 3em;
