@@ -1,4 +1,4 @@
-Structure HTML-CSS du site "CEFii Golf" 
+Structure HTML-CSS du site "Golf" 
 
 Cahier des charges :
 
@@ -98,7 +98,113 @@ Sur la FAQ :
   Animation du logo :
 - L'animation ne doit faire qu'un seul cycle.
 
-  Responsive design :
-- utiliser les media queries pour rendre les pages "Accueil" et "Tarifs & Contact" adaptables aux supports mobiles.
-- Vous devez également mettre en place un menu burger (pour les versions mobile et tablette) et appliquer des points de rupture (pour les versions mobile, tablette et desktop).
-  
+- =======================================================================================================================
+
+- HTML-CSS Structure of the "Golf" Website
+
+Specifications:
+
+The Request: General:
+
+Center the pages of the website and apply a maximum width of 1280px.
+Apply a 1px border with the color #F6F1EE to all pages.
+Position the logo and the navigation menu using flexboxes.
+Apply a stripe with the color #BDA672 at the bottom of the section containing the logo and the menu.
+Apply the following styles to the links:
+
+Using flexboxes, align the menu links horizontally and apply the color #3B3A3A to them.
+Set the links to uppercase using the Google Fonts "Open Sans".
+Apply a stripe of color #BF9A3C to active links.
+On hover, apply the color #BF9A3C to the links.
+Position a Font Awesome chevron with the color #BF9A3C to the right of the "Le domaine" link.
+Hide the submenu.
+On the header:
+
+Position the slogan "Welcome to CEFii Golf" and apply the following font: Google Fonts "Lustria".
+Set the background of the header to the image bandeau.png.
+On the 3 "Call To Action" blocks:
+
+Center the blocks horizontally using flexboxes.
+Vertically position the blocks according to the mockup (see expected result).
+Apply a border with the color #F6F1EE.
+Insert and center a Font Awesome icon with the color #BF9A3C.
+Center the titles and apply the color #3B3A3A and the Google Fonts "Open Sans" font.
+Apply the color #3B3A3A and the Google Fonts "Open Sans" font to the paragraphs.
+Apply an outline with the color #BDA672 to each block.
+Styling 3 sections:
+
+On the Homepage:
+
+Position the "About" and "Learn More" sections one below the other and the "Highlights" section on their right.
+Apply the Google Fonts "Lustria" to the titles.
+Apply the Google Fonts "Open Sans" and the color #3B3A3A to the paragraphs.
+Underline the titles with the color #BDA672.
+In "Learn More," add the image drapeau-liste.png to the list.
+In "Highlights," position the date on the image. The font used is also "Open Sans" on a background color of #BF9A3C.
+Style the "Read more" button with the color #BF9A3C.
+On the Newsletter section of the Homepage:
+
+Apply the Google Fonts "Lustria" to the title.
+Underline the title with the color #BDA672.
+Insert a Font Awesome icon with the color #BF9A3C for the newsletter.
+Apply a border with the color #BDA672 to the newsletter subscription field.
+Style the "Submit" button with the color #BF9A3C.
+Apply a stripe with the color #BDA672 at the top and bottom of the section containing the newsletter.
+Set the background of the newsletter to the image golfeur.jpeg.
+On the Homepage and Rates & Contact page:
+
+Use flexboxes to position the links, address, and social media icons in 3 columns.
+Insert and center a Font Awesome icon with the color #FFFFFF for the address.
+Insert and position Font Awesome icons with the color #FFFFFF for the social media using flexboxes.
+Apply a stripe with the color #BDA672 at the top of the footer.
+Apply a stripe with the color #FFFFFF at the bottom of the section containing the links, address, and social media icons.
+Center the copyright text.
+Styling a table: On the Rates & Contact page:
+
+Apply the Google Fonts "Lustria" to the title.
+Underline the title with the color #BDA672.
+Apply the Google Fonts "Open Sans" and the color #3B3A3A to the paragraph and table data.
+Apply a border with the color #BDA672 to the table cells.
+Apply a background color of #F6F1EE to odd rows.
+Apply a stripe with the color #BDA672 at the bottom of the section containing the table.
+Form, contact: On the Rates & Contact page:
+
+Position the contact form and the map side by side using flexboxes.
+Apply the Google Fonts "Lustria" to the title.
+Underline the title with the color #BDA672.
+Apply the color #3B3A3A and the Google Fonts "Open Sans" to the paragraph and labels.
+Position the labels above the input fields.
+Apply a background color of #F6F1EE to the input fields.
+Style the "Submit" button with the color #BF9A3C.
+Apply a stripe with the color #BDA672 at the bottom of the section containing the contact form and the map.
+Styling the FAQ and Partners:
+
+On the FAQ:
+
+Apply the Google Fonts "Lustria" to the title.
+Underline the title with the color #BDA672.
+Apply a background color of #F6F1EE to each question/answer.
+Position a Font Awesome chevron with the color #BF9A3C at the end of each question.
+On the Partners:
+
+Horizontally position the logos using flexboxes.
+Apply a background color of #BF9A3C to the logos.
+
+Transitions:
+
+On the submenu:
+
+Apply a transition when opening and closing the submenu when hovering over the "Le domaine" link.
+Apply a border with the color #BDA672 at the bottom of the submenu links.
+On the FAQ:
+
+On hover, apply a transition when opening the answers.
+
+Logo animation:
+
+The animation should only run for one cycle.
+
+Responsive design:
+
+Use media queries to make the "Homepage" and "Rates & Contact" pages adaptable to mobile devices.
+You must also implement a burger menu (for mobile and tablet versions) and apply breakpoints (for mobile, tablet, and desktop versions).
